@@ -1,0 +1,61 @@
+h1{ color: rgba(221, 164, 42, 0.904);
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+h2{
+    color: rgba(5, 51, 41, 0.904);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+p{
+    color: rgba(16, 17, 17, 0.959);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+} 
+
+.ejemplo {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 200px 200px 0px 0px;
+ }
+ .box {
+    background-color: aliceblue;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 50px;
+    
+ }
+
+ .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    }
+
+ .row {
+display: flex;
+flex-wrap: wrap;
+margin: 10px;
+}
+
+.column {
+flex: 1;
+padding: 10px;
+}
+@media (max-width: 600px) {
+    .column {
+    flex: 100%;
+    }
+    }
+    
